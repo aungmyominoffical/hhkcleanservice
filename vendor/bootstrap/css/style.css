@@ -1,0 +1,637 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.upper{
+    height: 22% !important;
+}
+
+.lower{
+    height: 78% !important;
+}
+
+.logo-bar{
+    height: 50%;
+}
+
+.search-bar{
+    height: 50%;
+}
+
+.services-location{
+    width: 20%;
+}
+
+.search{
+    width: 60%;
+}
+
+.book-now{
+    width: 20%;
+}
+
+.book-now-btn{
+    padding: 0 12px 0 12px !important;
+}
+
+.plumbing ul li{
+    list-style-type: none;
+}
+
+.plumbing{
+    margin-top: -5px !important;
+}
+
+.choose{
+    height: 150px;
+    border-radius: 100px !important;
+    border: 1px solid #00000010;
+    background-color: white;
+    border: 1px solid #00000010;
+    padding: 0 50px 0 50px;
+    position: absolute;
+}
+
+.content{
+    height: 85%;
+}
+
+.content-1{
+    width: 60% !important;
+}
+
+.choose .slick-dots{
+    position: absolute !important;
+    top: 0px !important;
+    margin-top: -100px !important;
+}
+
+.choose .slick-dots li{
+    background-color: white !important;
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.choose .slick-dots li.slick-active{
+    background-color: #FFD700 !important;
+    border-radius: 100px !important;
+    width: 80px !important;
+}
+
+.my-header{
+    top: 0 !important;
+    z-index: 1;
+    transition: 0.8s;
+}
+
+.logo{
+    width: 200px;
+}
+
+.to-contact{
+    width: 20%;
+}
+
+.email{
+    width: 25%;
+}
+
+.email-support{
+    margin-left: -25px;
+}
+
+.phone{
+    margin-left: -100px;
+}
+
+.home-upper{
+    background-color: #073C58;
+}
+
+.best-img{
+    width: 100%;
+}
+
+.percent-50{
+    bottom: 10px;
+    right: 10px;
+}
+
+.clean-img{
+    width: 100%;
+}
+
+.clean-body{
+    margin: 50px 0;
+}
+
+.best-offer-header{
+    margin-bottom: 30px;
+}
+
+.choose-us-register-upper{
+    min-height: 50% !important;
+}
+
+.choose-us-register-lower{
+    min-height: 50% !important;
+}
+
+.register-upper{
+    height: 100% !important;
+}
+
+.register-lower{
+    height: 100% !important;
+}
+
+.three-choose-us{
+    min-height: 100%;
+}
+
+.manage-phone{
+    min-height: 100%;
+}
+
+.manage-phone-upper{
+    min-height: 65%;
+    background-image: url(../../../img/bg-shape.svg);
+    background-size: 110%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.manage-phone-lower{
+    min-height: 35%;
+    background-color: black;
+}
+
+.play-store{
+    margin-bottom: 100px !important;
+}
+
+.more-services{
+    margin-bottom: 30px;
+}
+
+.get-20{
+    margin-bottom: 50px;
+}
+
+.choose-us-main{
+    min-height: auto !important;
+}
+
+.manage-phone-lower ul li{
+    list-style: none;
+}
+
+.getfix-warning{
+    color: #FFD70090 !important;
+}
+
+.new-to-contact{
+    display: none !important;
+}
+
+.new-header{
+    position: fixed !important;
+    background-color: #7793a1ee !important;
+    transition: 0.8s;
+    backdrop-filter: blur(5px);
+    animation: toShow 1s linear;
+}
+
+.new-header .my-nav{
+    width: 100% !important;
+}
+
+.new-header .my-nav a{
+    font-size: 1.2rem;
+    padding: 2px 1px !important;
+}
+
+.new-header .navbar-nav{
+    margin-right: 0px !important;
+}
+
+.new-header .navbar-nav li{
+    margin: 0px !important;
+}
+
+.new-header .new-icon{
+    color: white !important;
+}
+
+.new-header .logo{
+    width: 165px !important;
+}
+
+.email-support{
+    margin-left: -53px;
+}
+
+.new-header .navbar-nav{
+    width: 90% !important;
+}
+
+.ani-delay-1{
+    animation-delay: 0.5s;
+}
+
+.ani-delay-2{
+    animation-delay: 1s;
+}
+
+.ani-delay-3{
+    animation-delay: 1.5s;
+}
+
+.ani-delay-4{
+    animation-delay: 2s;
+}
+
+.choose-us-img{
+    transition: 0.5s;
+}
+
+.choose-us-main:hover .choose-us-img{
+    transform: scale(1.3) rotate(360deg);
+}
+
+.content-1{
+    transition: 0.5s;
+}
+
+.content-1:hover{
+    transform: scale(1.2);
+}
+
+.nav-link.active{
+   color: yellow !important;
+}
+
+.home.active{
+    color: #022C43 !important;
+}
+
+.up-to-top{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 70px;
+    right: 70px;
+}
+
+@keyframes toShow {
+    form{
+        transform: translateY(-200px);
+    }to{
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .my-nav{
+        width: 100%;
+    }
+
+    .upper{
+        height: 18% !important;
+    }
+
+    .lower{
+        height: 82% !important;
+    }
+
+    .logo-bar{
+        height: 40%;
+    }
+
+    .search-bar{
+        height: 60%;
+    }
+
+    .my-nav .navbar-nav li{
+        background-color: lavenderblush !important;
+        padding: 10px 0 !important;
+        border-radius: 15px !important;
+    }
+
+    .my-nav .navbar-nav li a{
+        color: #022C43 !important;
+        text-align: center;
+    }
+
+    .content-1{
+        width: 80% !important;
+    }
+
+    .main-choose{
+        margin-bottom: 50px !important;
+    }
+
+    .choose{
+        margin-top: 50px !important;
+    }
+
+    .best-img{
+        width: 60%;
+    }
+
+    .best-offer-upper{
+        height: 15% !important;
+    }
+
+    .best-offer-lower{
+        height: 85% !important;
+    }
+
+    .choose-us{
+        display: flex;
+        align-items: center;
+    }
+
+    .manage-aintentance-inner{
+        display: flex;
+        flex-flow: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .play-store{
+        margin-bottom: 0px !important;
+    }
+
+    .get-20{
+        color: black !important;
+    }
+
+    .choose-us-register-upper{
+        min-height: 40% !important;
+    }
+
+    .choose-us-register-lower{
+        min-height: 60% !important;
+    }
+
+    .manage-phone-upper{
+        margin-top: 15px;
+    }
+
+    .manage-phone-lower ul{
+        padding-left: 100px !important;
+    }
+
+    .manage-phone-lower ul.quick{
+        padding-left: 120px !important;
+    }
+
+    .get-fix-simple{
+        padding-left: 30px !important;
+    }
+
+    .new-header{
+        background-color: #022C4399 !important;
+    }
+
+    .new-header .navbar-nav li{
+        margin: 4px 0 !important;
+    }
+
+    .new-header .my-nav a{
+        font-size: 1.5rem;
+        padding: 8px 1px !important;
+    }
+
+    .plumbing{
+        margin-top: -10px !important;
+    }
+
+    .new-header .navbar-nav{
+        width: 100% !important;
+    }
+
+    .my-header .nav-link.active{
+        color: yellow !important;
+    }
+
+    .up-to-top{
+        bottom: 50px;
+        right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .my-nav{
+        width: 80% !important;
+    }
+
+    .plumbing{
+        display: none !important;
+    }
+
+    .upper{
+        height: 20% !important;
+    }
+
+    .lower{
+        height: 80% !important;
+    }
+
+    .book-now{
+        display: none !important;
+    }
+
+    .search{
+        width: 85%;
+    }
+
+    .search-bar{
+        display: flex;
+        align-items: center;
+    }
+
+    .content{
+        flex-flow: column;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 10px !important;
+        height: 95% !important;
+    }
+
+    .location{
+        width: 100%;
+    }
+
+    .maintain{
+        width: 100% !important;
+        height: 50% !important;
+        justify-content: center !important;
+        margin-top: 10px !important;
+    }
+
+    .off{
+        width: 100% !important;
+        height: 50% !important;
+        padding-top: 5px;
+    }
+
+    .content-1{
+        width: 50% !important;
+    }
+
+    .main-text{
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .maintain{
+        margin-top: 0px !important;
+    }
+
+    .navbar-collapse{
+        width: 60% !important;
+    }
+
+    .choose-header{
+        font-size: 0.9rem !important;
+    }
+
+    .choose-img{
+        width: 30px !important;
+    }
+
+    .choose{
+        height: 90px !important;
+        margin-top: 5px !important;
+        width: 90% !important;
+    }
+
+    .choose .slick-dots{
+        position: absolute !important;
+        top: 0px !important;
+        margin-top: -60px !important;
+    }
+
+    .choose .slick-list{
+        height: 50px !important;
+    }
+
+    .best-offer{
+        display: flex;
+    }
+
+    .get-plan{
+        float: left;
+    }
+
+    .best-img{
+        width: 80%;
+        height: 60%;
+    }
+
+    .clean-card{
+        height: auto;
+    }
+
+    .best-img{
+        width: 80%;
+        height: 120px;
+    }
+
+    .clean-body{
+        margin: 0 0;
+    }
+
+    .best-offer-upper{
+        height: 20% !important;
+    }
+
+    .best-offer-lower{
+        height: 80% !important;
+    }
+
+    .register-covid-main{
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .choose-us-register-upper{
+        flex-flow: column;
+    }
+
+    .register-upper{
+        padding: 75px 0 !important;
+    }
+
+    .register-lower{
+        padding: 75px 0 !important;
+    }
+
+    .choose-us-register-upper{
+        min-height: 50% !important;
+    }
+
+    .choose-us-register-lower{
+        min-height: 50% !important;
+    }
+
+    .manage-phone-upper{
+        margin-top: 15px;
+    }
+
+    .manage-phone-lower ul{
+        padding-left: 10px !important;
+    }
+
+    .manage-phone-lower ul.quick{
+        padding-left: 10px !important;
+    }
+
+    .manage-phone-lower ul.final-services{
+        padding-left: 80px !important;
+    }
+
+    .manage-phone-upper{
+        background-size: cover;
+    }
+
+    .phone-mockup{
+        width: 100% !important;
+    }
+
+    .my-nav .navbar-nav li{
+        background-color: lavenderblush !important;
+        padding: 10px 0 !important;
+        border-radius: 15px !important;
+    }
+
+    .my-nav{
+        width: 90% !important;
+    }
+
+    .new-header .my-nav{
+        width: 90% !important;
+    }
+
+    .navbar-brand{
+        padding: 3px !important;
+    }
+
+    .new-header .my-nav a {
+        font-size: 1rem;
+    }
+
+    .my-header .nav-link.active{
+        color: yellow !important;
+    }
+
+    .up-to-top{
+        bottom: 30px;
+        right: 30px;
+    }
+
+} 

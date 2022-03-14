@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+    <div class="d-flex justify-content-center align-items-center vh-100 bg-white position-fixed w-100 loader" style="z-index: 2000 !important;">
+        <img src="img/loader.gif" alt="">
+    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Services</title>
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/animate_it/animate.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/style.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .loader{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            z-index: 2000;
+        }
+    </style>
+</head>
+<body>
+    <header id="my-header" class="container-fluid bg-transparent position-absolute my-header px-0 px-md-3 animate__animated animate__slideInDown">
+        <div class="row mx-0">
+            <div class="col-12 px-0">
+                <div class="row justify-content-center mx-0">
+                    <div class="col-12 col-md-10 col-lg-8 d-flex justify-content-center px-0">
+                        <div class="my-nav d-flex justify-content-between w-100">
+                            <nav class="navbar navbar-expand-lg navbar-light w-100 p-0">
+                                <a class="navbar-brand ml-md-0 navbar-brand-new" href="#">
+                                    <img src="img/logo.png" class="logo" alt="">
+                                </a>
+                                <button class="navbar-toggler my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa fa-bars fa-2x new-icon"></i>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-md-center justify-content-lg-end" id="navbarNav">
+                                    <ul class="navbar-nav w-100 justify-content-around mr-0 mr-lg-5">
+                                        <li class="nav-item my-1">
+                                          <a class="nav-link my-nav-item text-white font-weight-bold home active" href="#home">Home</a>
+                                        </li>
+                                        <li class="nav-item my-1">
+                                          <a class="nav-link my-nav-item text-white font-weight-bold about" href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item my-1">
+                                          <a class="nav-link my-nav-item text-white font-weight-bold services" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav-item my-1">
+                                          <a class="nav-link my-nav-item text-white font-weight-bold project" href="#project">Project</a>
+                                        </li>
+                                        <li class="nav-item my-1">
+                                            <a class="nav-link my-nav-item text-white font-weight-bold quote" href="#quote">Contact</a>
+                                          </li>
+                                      </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="to-contact d-none d-lg-block ml-50">
+                            <small class="phone">Phone: +1 444 547 9832</small>
+                            <p class="mb-0 email-support">Email: support@getfix.com</p>
+                            <p class="text-right mb-0">Registrer | Login</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="container-fluid px-0 home">
+        <div class="row vh-100 mx-0">
+            <div class="col-12 px-0">
+                <div class="upper bg-warning">
+                    <div class="row justify-content-center h-100 mx-0">
+                        <div class="col-12 col-md-10 col-lg-8 px-0">
+                            <div class="logo-bar">
+
+                            </div>
+                            <div class="search-bar">
+                                <div class="location d-flex justify-content-center align-items-center">
+                                    <div class="services-location d-none d-md-block">
+                                        <p class="mb-0 text-right mr-0 mr-lg-3">Service Location</p>
+                                        <p class="mb-0 text-left">near- Jaipur 302019</p>
+                                    </div>
+                                    <div class="search d-flex"> 
+                                        <i class="fas fa-map-marker-alt text-white fa-2x mr-2"></i>
+                                        <div class="w-100">
+                                            <input type="text" class="form-control" placeholder="Seaerch for Services">
+                                        </div>
+                                    </div>
+                                    <div class="book-now d-flex justify-content-end">
+                                        <button class="btn btn-dark px-4 float-right">Book Now</button>
+                                    </div>
+                                </div>
+                                <div class="plumbing d-flex justify-content-center">
+                                    <div class="w-50">
+                                        <ul class="d-flex justify-content-start w-75 pl-0 pt-0">
+                                            <li class="mr-4 text-white">Plumbing</li>
+                                            <li class="mr-4 text-white">Battery</li>
+                                            <li class="mr-4 text-white">Painter</li>
+                                            <li class="mr-4 text-white">Cleaning</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lower bg-primary position-relative">
+                    <div class="row justify-content-center h-100 mx-0">
+                        <div class="col-12 px-0 h-0">
+                            <div class="home-upper w-100 d-flex justify-content-center align-items-center py-1 py-md-3  animate__animated animate__bounce">
+                                <small class="text-light text-center">Cleaning | Janitor | Kitchen Cleaning | Sofa Spa<br class="d-block d-md-none"> | Housekeeping  | Annual Maintenance Plan <br class="d-block d-lg-none"> | Deep Cleaning | AC Servicing |  Plumber | MaintenanceHouse   </small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-10 col-lg-8 px-0t">
+                            <div class="content d-flex w-100">
+                                <div class="maintain w-50 d-flex justify-content-end align-items-start mt-10 animate__animated animate__slideInLeft">
+                                    <div class="mt-10 main-text">
+                                        <h3 class="text-white">We maintain <br>
+                                            operate and improve <br>
+                                            your homes and offices
+                                        </h3>
+                                        <h3 class="text-warning my-0 my-md-3">#MaintenanceHouse</h3>
+                                        <button class="btn btn-warning px-4 get-plan">Get Plan</button>
+                                    </div>
+                                </div>
+                                <div class="off w-50 d-flex align-items-start pt-3 pt-md-0 animate__animated animate__slideInRight">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="img/content-1.svg" class="content-1 w-50 mt-lg-0" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <div class="row d-flex justify-content-center main-choose position-relative">
+                                <div class="choose d-flex flex-column justify-content-center align-items-center w-100">
+                                    <h3 class="mb-2 text-black choose-header">Choose from Services by Category</h3>
+                                    <div class="row slide text-center w-100 mb-0">
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-1.svg" class="choose-img" alt="">
+                                            <p>Plumbing</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-2.svg" class="choose-img" alt="">
+                                            <p>Electrical</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-3.svg" class="choose-img" alt="">
+                                            <p>AC Repair</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-4.svg" class="choose-img" alt="">
+                                            <p>Plumbing</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-5.svg" class="choose-img" alt="">
+                                            <p>Electrical</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-6.svg" class="choose-img" alt="">
+                                            <p>AC Repair</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-1.svg" class="choose-img" alt="">
+                                            <p>Plumbing</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-2.svg" class="choose-img" alt="">
+                                            <p>Electrical</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-3.svg" class="choose-img" alt="">
+                                            <p>AC Repair</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-4.svg" class="choose-img" alt="">
+                                            <p>Plumbing</p>
+                                        </div>
+                                        <div class="mx-2 d-flex flex-column align-items-center">
+                                            <img src="img/choose-5.svg" class="choose-img" alt="">
+                                            <p>Electrical</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container-fluid px-0 about">
+        <div class="row min-vh-100 mx-0">
+            <div class="col-12 px-0">
+                <div class="row justify-content-center vh-100 mx-0">
+                    <div class="col-12 col-md-10 col-lg-8 px-0">
+                        <div class="best-offer h-100">
+                            <div class="row vh-100 align-items-center mx-0">
+                                <div class="col-12 h-50 d-flex justify-content-center justify-content-lg-start align-items-end best-offer-upper">
+                                    <div class="best-offer-header mb-0 mb-md-2  wow animate__animated animate__bounce">
+                                        <h4 class="font-weight-bold text-center text-lg-left">Best Offers</h4>
+                                        <p class="text-center text-lg-left">Hygienic & single-use products | <br class="d-block d-md-none">low-contact services</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 h-50 d-flex align-items-start best-offer-lower">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-4 d-flex flex-column align-items-center mb-2 mb-lg-0 wow animate__animated animate__slideInLeft ani-delay-2">
+                                            <img src="img/best-img-1.svg" class="best-img" alt="">
+                                            <p class="mb-0">Bathroom Cleaning</p>
+                                            <small class="text-black-50">Free Fan Cleaning & More</small>
+                                        </div>
+                                        <div class="col-12 col-lg-4 d-flex flex-column align-items-center mb-2 mb-lg-0 wow animate__animated animate__slideInLeft ani-delay-1">
+                                            <img src="img/best-img-2.svg" class="best-img" alt="">
+                                            <p class="mb-0">Bathroom Cleaning</p>
+                                            <small class="text-black-50">Free Fan Cleaning & More</small>
+                                        </div>
+                                        <div class="col-12 col-lg-4 d-flex flex-column align-items-center wow animate__animated animate__slideInRight ani-delay-3">
+                                            <img src="img/best-img-3.svg" class="best-img" alt="">
+                                            <p class="mb-0">Bathroom Cleaning</p>
+                                            <small class="text-black-50">Free Fan Cleaning & More</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="container-fluid bg-light px-0 services">
+        <div class="row min-vh-100 justify-content-center mx-0">
+            <div class="col-12 px-0 justify-content-center align-items-center">
+                <div class="row mx-0 min-vh-100 justify-content-center align-items-center">
+                    <div class="col-12 col-md-10 col-lg-8 px-0">
+                        <div class="row mx-0">
+                            <div class="col-12 clean-head px-0 my-3 my-md-0">
+                                <h4 class="text-center">Cleaning<span class="text-warning"> Services</span></h4>
+                            </div>
+                            <div class="d-flex clean-body">
+                                <div class="row mx-0">
+                                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center wow animate__animated animate__slideInDown ani-delay-3">
+                                        <div class="clean-card">
+                                            <p>Residential Cleaning</p>
+                                            <div class="position-relative w-100">
+                                                <img src="img/clean-img-1.svg" class="clean-img" alt="">
+                                                <div class="position-absolute percent-50">
+                                                    <img src="img/percent-50.svg" class="percent-50-img" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center wow align-items-center animate__animated animate__slideInDown ani-delay-2">
+                                        <div class="clean-card">
+                                            <p>Residential Cleaning</p>
+                                            <div class="position-relative w-100">
+                                                <img src="img/clean-img-2.svg" class="clean-img" alt="">
+                                                <div class="position-absolute percent-50">
+                                                    <img src="img/percent-50.svg" class="percent-50-img" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center wow animate__animated animate__slideInDown ani-delay-1">
+                                        <div class="clean-card">
+                                            <p>Residential Cleaning</p>
+                                            <div class="position-relative w-100">
+                                                <img src="img/clean-img-3.svg" class="clean-img" alt="">
+                                                <div class="position-absolute percent-50">
+                                                    <img src="img/percent-50.svg" class="percent-50-img" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center wow animate__animated animate__slideInRight ani-delay-4">
+                                        <div class="clean-card">
+                                            <p>Residential Cleaning</p>
+                                            <div class="position-relative w-100">
+                                                <img src="img/clean-img-4.svg" class="clean-img" alt="">
+                                                <div class="position-absolute percent-50">
+                                                    <img src="img/percent-50.svg" class="percent-50-img" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clean-foot w-100 d-flex justify-content-center align-items-center my-3 my-md-0">
+                                <button class="btn btn-warning">More Services</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="project" class="container-fluid px-0 project">
+        <div class="row min-vh-100 mx-0">
+            <div class="col-12 px-0">
+                <div class="row mx-00 choose-us-register-upper mx-0">
+                    <div class="col-12 col-md-6 px-0 wow animate__animated animate__slideInDown">
+                        <div class="bg-primary h-100 register-upper">
+                            <div class="row justify-content-center h-100 mx-0">
+                                <div class="col-12 col-lg-8 d-flex align-items-center">
+                                    <div class="d-flex flex-column flex-lg-row align-items-center mr-0 mr-md-2">
+                                        <div class="w-25 mr-0 mr-md-2 mb-0 mb-md-2 mb-lg-0">
+                                            <img src="img/register.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="w-75">
+                                            <div class="mr-0 mr-md-3 text-center">
+                                                <h4 class="text-white">Register with Us</h4>
+                                                <p class="text-white">Making your home / office ownership easy and simple along with some discounts and offers on maintenance and repair.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-0 wow animate__animated animate__slideInRight">
+                        <div class="bg-warning h-100 register-lower">
+                            <div class="row justify-content-center h-100 mx-0">
+                                <div class="col-12 col-lg-8 d-flex align-items-center">
+                                    <div class="d-flex flex-column flex-lg-row align-items-center  mr-0 mr-md-2">
+                                        <div class="w-25 mr-0 mr-md-2 mb-0 mb-md-2 mb-lg-0">
+                                            <img src="img/covid.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="w-75">
+                                            <div class="mr-0 mr-md-3 text-center">
+                                                <h4 class="text-black">Covid-19 Safe</h4>
+                                                <p class="text-black">Getfix follows all the safety guidelines (Covid-19) in accordance to the new protocols laid by Government of India & WHO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center choose-us-register-lower mx-0">
+                    <div class="col-12 col-md-10 d-flex align-items-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-4 animate__animated animate__slideInLeft ani-delay-1">
+                                <div class="d-flex flex-column align-items-center choose-us-main">
+                                    <div class="my-3">
+                                        <img src="img/choose-us-1.png" class="choose-us-img" width="100px" alt="">
+                                    </div>
+                                    <h4 class="choose-us-head">Pick a Time</h4>
+                                    <p class="text-center choose-us-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 animate__animated animate__slideInRight ani-delay-1">
+                                <div class="d-flex flex-column align-items-center choose-us-main">
+                                    <div class="my-3">
+                                        <img src="img/choose-us-2.png" class="choose-us-img" width="100px" alt="">
+                                    </div>
+                                    <h4 class="choose-us-head">Book Instantly</h4>
+                                    <p class="text-center choose-us-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-0 mb-md-19 mb-lg-0  animate__animated animate__slideInRight ani-delay-2">
+                                <div class="d-flex flex-column align-items-center choose-us-main">
+                                    <div class="my-3">
+                                        <img src="img/choose-us-3.png" class="choose-us-img" width="100px" alt="">
+                                    </div>
+                                    <h4 class="choose-us-head">100% Safe</h4>
+                                    <p class="text-center choose-us-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="quote" class="container-fluid px-0 bg-light quote">
+        <div class="row justify-content-end mx-0 min-vh-100">
+            <div class="col-12 px-0 min-vh-100">
+                <div class="manage-phone-upper">
+                    <div class="row justify-content-end min-vh-100 mx-0">
+                        <div class="col-12 col-md-12 col-lg-10 d-flex px-0">
+                            <div class="row min-vh-100 mx-0">
+                                <div class="col-12 col-lg-4 px-0">
+                                    <div class="manage-aintentance d-flex align-items-end h-100 py-0 py-md-4 py-lg-0">
+                                        <div class="w-100 manage-aintentance-inner">
+                                            <h4 class="mt-0 mt-md-5 mt-lg-0 text-center wow animate__animated animate__slideInDown">Manage Your Aintentance <br class="d-block d-md-none"> On The Go <br class="d-none d-md-block d-lg-none">
+                                                With Our <br class="d-block d-md-none d-lg-block"> Self-Service Mobile App</h4>
+                                            <div class="d-flex play-store mb-md-0 wow animate__animated animate__slideInDown">
+                                                <img src="img/google-play.svg" width="180px" alt="">
+                                                <img src="img/google-store.svg" width="180px" alt="">
+                                            </div>
+                                            <h4 class="text-white get-20 text-center wow animate__animated animate__slideInUp">Want to get 20% off? <br>
+                                                Save the time and money?</h4>
+                                            <div class="more-services wow animate__animated animate__slideInUp">
+                                                <button class="btn btn-primary">More Services</button>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-12 col-lg-8 px-0 wow animate__animated animate__flip">
+                                    <div class="manage-phone d-flex justify-content-center align-items-end">
+                                        <div class="h-100 w-100 d-flex justify-content-center">
+                                            <img src="img/mockup.svg" class="w-75 phone-mockup wow animate__animated animate__flipInX ani-delay-2" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manage-phone-lower bg-primary d-flex justify-content-center position-relative">
+                    <div class="row mx-0 d-flex justify-content-center align-items-center">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="get-fix-simple">
+                                        <h1 class="text-warning text-center">Get<span class="text-white">Fix</span></h1>
+                                        <p class="text-white">Making an asset ownership easy & simple</p>
+                                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut</p>
+                                        <p class="getfix-warning">© Copyright 2021 Getfix,  All Right Reserved</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="">
+                                        <h4 class="text-warning text-center">Quick View</h4>
+                                        <ul class="quick">
+                                            <li class="text-white py-1">Home</li>
+                                            <li class="text-white py-1">About</li>
+                                            <li class="text-white py-1">Services</li>
+                                            <li class="text-white py-1">Projects</li>
+                                            <li class="text-white py-1">Quote</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <div class="">
+                                        <h4 class="text-warning text-center">Services</h4>
+                                        <ul>
+                                            <li class="text-white py-1">Commercial Cleaning</li>
+                                            <li class="text-white py-1">House Cleaning</li>
+                                            <li class="text-white py-1">Office Cleaning</li>
+                                            <li class="text-white py-1">Glass Cleaning</li>
+                                            <li class="text-white py-1">Window Clening</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="">
+                                        <h4 class="text-warning text-center">Services</h4>
+                                        <ul class="final-services">
+                                            <li class="text-white py-2">Phone: +1 444 547 9832</li>
+                                            <li class="text-white py-2">Email: info@getfix.com</li>
+                                            <li class="text-white py-2">Fax: +1 456 666 5314</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="up-to-top position-absolute bg-warning d-flex justify-content-center align-items-center">
+                        <a href="#home"><i class="fas fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="vendor/way_point/jquery.waypoints.min.js"></script>
+    <script src="vendor/slick/slick.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/app.js"></script>
+    <script src="vendor/wow/wow.js"></script>
+    <script>
+
+        new WOW().init();
+
+        var sections = document.querySelectorAll('section');
+        var myNavItems = document.querySelectorAll('.my-nav-item');
+
+        window.addEventListener('scroll',function(){
+             
+            var current = '';
+
+            sections.forEach(section => {
+                var sectionTop = section.offsetTop;
+                // var sectionHeight = section.clientHeight;
+                if(pageYOffset >= sectionTop){
+                    current = section.getAttribute('id');
+                }
+                
+            })
+
+            myNavItems.forEach(li => {
+                li.classList.remove('active');
+                if(li.classList.contains(current)){
+                    li.classList.add('active');
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>

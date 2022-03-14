@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="352" height="218" viewBox="0 0 352 218">
+  <defs>
+    <filter id="Rectangle_6244" x="0" y="0" width="352" height="218" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_16077" data-name="Group 16077" transform="translate(-566.5 -3328.5)">
+    <g transform="matrix(1, 0, 0, 1, 566.5, 3328.5)" filter="url(#Rectangle_6244)">
+      <rect id="Rectangle_6244-2" data-name="Rectangle 6244" width="211" height="77" rx="8" transform="translate(70.5 67.5)" fill="#fff"/>
+    </g>
+    <image id="playstore" width="35" height="40" transform="translate(664 3415)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAoCAMAAABDwLOoAAABPlBMVEUAAAAsodsyu/8txZ4txKeQmX4uw7IsxpTAUULA0iD3qQkqy2nORzDA0iIwq+gtxKoqynIqyXb/sQAryX8sx46KeYkuuM9coZ8wv97QRSy10SbNoCbHTTmx0S7/1QAsxpm6Vku1WlEyu///1QAryIWxXVb/tQBajLKsYFwrx4kup+SpYmGmZWX/1QD/1QD/twChaGssxpSfam4sxpcvwcr/1QAsxpmbbXMsxpuZb3b/ugEyu/+WcXotxZ7/1QAtxaGUc30txaOSdID/vQD91QItxaWQdYP/vQCOd4UtxKctxKmMeIj/vgD/1QAtxKr/1QAtxKr/1QAtxKyIe4z/vwCGfZD/1QAsn9kyu/8pzF7ZPyH/qgD/1QAvq+r/vQAyu/0tzFyIbHiSZ22cYmTbRR/6qwV9coPWQSYpy2WManTD6PxNAAAAV3RSTlMA/vD5+QX7+Pj+/v39/fz7+vf179EvFQ4J/v79+/n5+PHs6efm5uTi3dzY1c3My8nBwLa1tKupqZ6cnJuOjIp/f3BwbV9dXVdSUENDPzwzMSoiHx8dFg+gvh5kAAABM0lEQVQ4y33O11LDMBRF0RvAYJIQSCEJvffee++9g2UMmJrw/z/ASMKxPGek/bweNmFYcT6RXrbMZs2pZSy9YzS9Dkes/9RgqhyJWO7WaJxGjhKLRZORiDVtmYxTw0TZE60JEctda02IynMFNCqSWxta81bNgrIHYBCxkUswiMozeTCA/I79qEHkN3jexAUYgboqhLdwA4ajOkHqPVnn5qMwiCSR9V1xA8hv9ZQmKfUCpdpeI1HsCfp0489KGW6AuO63Yo64QeJ+VdDUPXEDJESD50RgPiSRKLNHohiQAMVXLVINktL0A5FqkAw3E6kGSfch8dD8BqJ9nURo3v9Fy2yBwERIaUyMoAlJzzEAYUJibxPpjCTJJYv05oePjN+RrpgkA2ekb5QTe5dM5YeS9oplJH9LdANC6ysInQAAAABJRU5ErkJggg=="/>
+    <g id="Group_16076" data-name="Group 16076" transform="translate(0 4)">
+      <text id="Get_it_on" data-name="Get it on" transform="translate(712 3422)" fill="rgba(29,29,29,0.5)" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Get it on</tspan></text>
+      <text id="Google_Play" data-name="Google Play" transform="translate(712 3447)" fill="#1d1d1d" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Google Play</tspan></text>
+    </g>
+  </g>
+</svg>
